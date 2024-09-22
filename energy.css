@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #2a9d8f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero, .subpage-hero {
+    background-image: url('skyline3.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.hero-text h1, .hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero-text p, .hero p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.hero .cta-button, .hero-text .cta-button {
+    background-color: #e76f51;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about, .green-buildings, .sustainability-initiatives, .projects, .community-involvement, .facilities, .amenities, .digitization, .digital-governance {
+    padding: 2rem;
+    text-align: center;
+}
+
+.about img, .green-buildings .gallery img, .sustainability-initiatives .subsection img, .community-involvement img, .facilities .gallery img, .amenities .subsection img, .digitization .subsection img, .digital-governance .subsection img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 1rem;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 30%;
+    max-width: 200px;
+}
+
+.project-highlights {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 30%;
+    max-width: 300px;
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#img1{
+    height: auto;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.layout-item, .innovation-item, .recreation-item {
+    margin-bottom: 30px;
+}
+
+footer {
+    background: #004d40;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.8em;
+}
+
+footer img {
+    width: 8%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+footer a {
+    color: #80cbc4;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
