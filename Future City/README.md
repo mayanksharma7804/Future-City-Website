@@ -1,1 +1,0 @@
-Open FUTURE CITY file for the main website!
